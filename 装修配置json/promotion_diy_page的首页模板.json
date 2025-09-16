@@ -1,0 +1,503 @@
+{
+    "page": {
+        "description": "",
+        "backgroundColor": "#f5f5f5",
+        "backgroundImage": ""
+    },
+    "navigationBar": {
+        "title": "阿巴阿巴",
+        "description": "",
+        "navBarHeight": 35,
+        "backgroundColor": "#fff",
+        "backgroundImage": "",
+        "styleType": "normal",
+        "alwaysShow": true,
+        "showGoBack": true,
+        "_local": {
+            "previewMp": true,
+            "previewOther": false
+        },
+        "mpCells": [
+            {
+                "left": 0,
+                "right": 6,
+                "top": 0,
+                "bottom": 1,
+                "height": 1,
+                "width": 6,
+                "type": "search",
+                "textColor": "#BAE0ED",
+                "text": "首页",
+                "borderRadius": 0,
+                "placeholder": ""
+            }
+        ],
+        "otherCells": [
+            {
+                "left": 0,
+                "right": 8,
+                "top": 0,
+                "bottom": 1,
+                "height": 1,
+                "width": 8,
+                "type": "search",
+                "textColor": "#111111",
+                "text": "首页",
+                "borderRadius": 27
+            }
+        ],
+        "bgType": "color",
+        "bgColor": "#FFFFFF"
+    },
+    "components": [
+        {
+            "id": "Carousel",
+            "property": {
+                "type": "card",
+                "indicator": "number",
+                "autoplay": true,
+                "interval": 3,
+                "items": [
+                    {
+                        "type": "img",
+                        "imgUrl": "https://static.iocoder.cn/mall/banner-01.jpg",
+                        "videoUrl": ""
+                    },
+                    {
+                        "type": "img",
+                        "imgUrl": "https://static.iocoder.cn/mall/banner-02.jpg",
+                        "videoUrl": ""
+                    }
+                ],
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "#fff",
+                    "marginBottom": 8
+                }
+            }
+        },
+        {
+            "id": "MenuGrid",
+            "property": {
+                "column": 4,
+                "list": [
+                    {
+                        "title": "拼团",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": false,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000",
+                            "text": "1"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/pintuan_1758014278067.jpg",
+                        "url": "/pages/activity/groupon/list"
+                    },
+                    {
+                        "title": "秒杀",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": false,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/miaosha_1758014997661.jpg",
+                        "url": "/pages/activity/seckill/list"
+                    },
+                    {
+                        "title": "充值",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": false,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/chongzhi_1758015003848.jpg",
+                        "url": "/pages/pay/recharge"
+                    },
+                    {
+                        "title": "领劵",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": false,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/lingquan_1758015010344.jpg",
+                        "url": "/pages/coupon/list"
+                    },
+                    {
+                        "title": "签到",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": false,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/qiandao_1758015014713.jpg",
+                        "url": "/pages/app/sign"
+                    },
+                    {
+                        "title": "分销",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": false,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/fenxiao_1758015019796.jpg",
+                        "url": "/pages/commission/index"
+                    },
+                    {
+                        "title": "商品",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": false,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/shangpin_1758015023822.jpg",
+                        "url": "/pages/goods/list"
+                    },
+                    {
+                        "title": "收藏",
+                        "titleColor": "#333",
+                        "subtitle": "",
+                        "subtitleColor": "#bbb",
+                        "badge": {
+                            "show": true,
+                            "textColor": "#fff",
+                            "bgColor": "#FF6000"
+                        },
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/shoucang_1758015027700.jpg",
+                        "url": "/pages/user/goods-collect"
+                    }
+                ],
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "#fff",
+                    "marginBottom": 8,
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "padding": 8,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "borderRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderBottomLeftRadius": 8
+                }
+            }
+        },
+        {
+            "id": "SearchBar",
+            "property": {
+                "height": 28,
+                "showScan": false,
+                "borderRadius": 0,
+                "placeholder": "搜索商品",
+                "placeholderPosition": "left",
+                "backgroundColor": "rgb(238, 238, 238)",
+                "textColor": "rgb(150, 151, 153)",
+                "hotKeywords": [
+                    "手机",
+                    "电脑"
+                ],
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "#fff",
+                    "marginBottom": 8,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8
+                }
+            }
+        },
+        {
+            "id": "CouponCard",
+            "property": {
+                "columns": 2,
+                "bgImg": "https://file.sheepjs.com/storage/decorate/20221115/046f2fddfc4f6778ff890a62547d8a1a.png",
+                "textColor": "#E9B461",
+                "button": {
+                    "color": "#434343",
+                    "bgColor": ""
+                },
+                "space": 0,
+                "couponIds": [
+                    15,
+                    14,
+                    2,
+                    1
+                ],
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "",
+                    "marginBottom": 8
+                }
+            }
+        },
+        {
+            "id": "FloatingActionButton",
+            "property": {
+                "direction": "horizontal",
+                "list": [
+                    {
+                        "imgUrl": "http://test.yudao.iocoder.cn/fcbd6b74945a456598fa3e0ac9f2f1ca07846be7a5c73871abf1dbb0c35a3615.png",
+                        "textColor": "#FFFFFF",
+                        "text": "客服"
+                    },
+                    {
+                        "text": "首页",
+                        "imgUrl": "http://test.yudao.iocoder.cn/471497c210da7635791bbc3102637ef0c8877b0d7db355a2ceeef524f0cb9095.png",
+                        "textColor": "#FFFFFF"
+                    }
+                ],
+                "showText": true
+            }
+        },
+        {
+            "id": "ProductCard",
+            "property": {
+                "layoutType": "oneColBigImg",
+                "fields": {
+                    "name": {
+                        "show": true,
+                        "color": "#000"
+                    },
+                    "introduction": {
+                        "show": true,
+                        "color": "#999"
+                    },
+                    "price": {
+                        "show": true,
+                        "color": "#ff3000"
+                    },
+                    "marketPrice": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "salesCount": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "stock": {
+                        "show": false,
+                        "color": "#c4c4c4"
+                    }
+                },
+                "badge": {
+                    "show": false,
+                    "imgUrl": ""
+                },
+                "btnBuy": {
+                    "type": "text",
+                    "text": "立即购买",
+                    "bgBeginColor": "#FF6000",
+                    "bgEndColor": "#FE832A",
+                    "imgUrl": ""
+                },
+                "borderRadiusTop": 8,
+                "borderRadiusBottom": 8,
+                "space": 8,
+                "spuIds": [
+                    633,
+                    634
+                ],
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "",
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginBottom": 8
+                }
+            }
+        },
+        {
+            "id": "PromotionSeckill",
+            "property": {
+                "layoutType": "oneColSmallImg",
+                "fields": {
+                    "name": {
+                        "show": true,
+                        "color": "#000"
+                    },
+                    "introduction": {
+                        "show": true,
+                        "color": "#999"
+                    },
+                    "price": {
+                        "show": true,
+                        "color": "#ff3000"
+                    },
+                    "marketPrice": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "salesCount": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "stock": {
+                        "show": false,
+                        "color": "#c4c4c4"
+                    }
+                },
+                "badge": {
+                    "show": false,
+                    "imgUrl": ""
+                },
+                "btnBuy": {
+                    "type": "text",
+                    "text": "立即秒杀",
+                    "bgBeginColor": "#FF6000",
+                    "bgEndColor": "#FE832A",
+                    "imgUrl": ""
+                },
+                "borderRadiusTop": 8,
+                "borderRadiusBottom": 8,
+                "space": 8,
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "",
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginBottom": 8
+                },
+                "activityIds": [
+                    41
+                ]
+            }
+        },
+        {
+            "id": "PromotionPoint",
+            "property": {
+                "layoutType": "oneColBigImg",
+                "fields": {
+                    "name": {
+                        "show": true,
+                        "color": "#000"
+                    },
+                    "introduction": {
+                        "show": true,
+                        "color": "#999"
+                    },
+                    "price": {
+                        "show": true,
+                        "color": "#ff3000"
+                    },
+                    "marketPrice": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "salesCount": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "stock": {
+                        "show": false,
+                        "color": "#c4c4c4"
+                    }
+                },
+                "badge": {
+                    "show": false,
+                    "imgUrl": ""
+                },
+                "btnBuy": {
+                    "type": "text",
+                    "text": "立即兑换",
+                    "bgBeginColor": "#FF6000",
+                    "bgEndColor": "#FE832A",
+                    "imgUrl": ""
+                },
+                "borderRadiusTop": 8,
+                "borderRadiusBottom": 8,
+                "space": 8,
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "",
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginBottom": 8
+                },
+                "activityIds": [
+                    1
+                ]
+            }
+        },
+        {
+            "id": "PromotionCombination",
+            "property": {
+                "layoutType": "oneColBigImg",
+                "fields": {
+                    "name": {
+                        "show": true,
+                        "color": "#000"
+                    },
+                    "introduction": {
+                        "show": true,
+                        "color": "#999"
+                    },
+                    "price": {
+                        "show": true,
+                        "color": "#ff3000"
+                    },
+                    "marketPrice": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "salesCount": {
+                        "show": true,
+                        "color": "#c4c4c4"
+                    },
+                    "stock": {
+                        "show": false,
+                        "color": "#c4c4c4"
+                    }
+                },
+                "badge": {
+                    "show": false,
+                    "imgUrl": ""
+                },
+                "btnBuy": {
+                    "type": "text",
+                    "text": "去拼团",
+                    "bgBeginColor": "#FF6000",
+                    "bgEndColor": "#FE832A",
+                    "imgUrl": ""
+                },
+                "borderRadiusTop": 8,
+                "borderRadiusBottom": 8,
+                "space": 8,
+                "style": {
+                    "bgType": "color",
+                    "bgColor": "",
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginBottom": 8
+                },
+                "activityIds": [
+                    7
+                ]
+            }
+        }
+    ]
+}
