@@ -139,7 +139,7 @@
                             "bgColor": "#FF6000",
                             "text": "1"
                         },
-                        "iconUrl": "http://test.yudao.iocoder.cn/f4c02443eee97732f614d112afe79c6f3f85d43b6e17c4159d1aff73e180d8f9.png",
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/pintuan_1758014278067.jpg",
                         "url": "/pages/activity/groupon/list"
                     },
                     {
@@ -152,7 +152,7 @@
                             "textColor": "#fff",
                             "bgColor": "#FF6000"
                         },
-                        "iconUrl": "http://test.yudao.iocoder.cn/a3d1416c107471b038a3f865af51b3f47e15adebfe84c55b4235e8126cc91a2c.png",
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/miaosha_1758014997661.jpg",
                         "url": "/pages/activity/seckill/list"
                     },
                     {
@@ -165,7 +165,7 @@
                             "textColor": "#fff",
                             "bgColor": "#FF6000"
                         },
-                        "iconUrl": "http://test.yudao.iocoder.cn/c4ce96eb6c71719f6a567e6cb90e526534e0315fc2dc3c5f3b6b6abb691ab87b.png",
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/chongzhi_1758015003848.jpg",
                         "url": "/pages/pay/recharge"
                     },
                     {
@@ -178,7 +178,7 @@
                             "textColor": "#fff",
                             "bgColor": "#FF6000"
                         },
-                        "iconUrl": "http://test.yudao.iocoder.cn/96f06d6c23c0207ffd03d71bd020ea1550a785441f95b9de4cf3765a202a68c8.png",
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/qiandao_1758015014713.jpg",
                         "url": "/pages/app/sign"
                     },
                     {
@@ -191,7 +191,7 @@
                             "textColor": "#fff",
                             "bgColor": "#FF6000"
                         },
-                        "iconUrl": "http://test.yudao.iocoder.cn/ae2f0e241fa730002e8a35d59815d047ccd85e814cfb2b4b01af511dbc4b4e0e.png",
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/fenxiao_1758015019796.jpg",
                         "url": "/pages/commission/index"
                     },
                     {
@@ -204,7 +204,7 @@
                             "textColor": "#fff",
                             "bgColor": "#FF6000"
                         },
-                        "iconUrl": "http://test.yudao.iocoder.cn/3544ce5e3466f10b92daec21c52166056b75cb3e68a921531c9b1daa6ac71b53.png",
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/shangpin_1758015023822.jpg",
                         "url": "/pages/goods/list"
                     },
                     {
@@ -213,11 +213,11 @@
                         "subtitle": "",
                         "subtitleColor": "#bbb",
                         "badge": {
-                            "show": false,
+                            "show": true,
                             "textColor": "#fff",
                             "bgColor": "#FF6000"
                         },
-                        "iconUrl": "http://test.yudao.iocoder.cn/a4e493b1cd6b8d7475167baab48b76b770b2fc145897853dc9007abeaebbd9db.png",
+                        "iconUrl": "http://127.0.0.1:9000/yudao/20250916/shoucang_1758015027700.jpg",
                         "url": "/pages/user/goods-collect"
                     },
                     {
